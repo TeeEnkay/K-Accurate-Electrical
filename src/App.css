@@ -1,0 +1,166 @@
+/*media screen size styles*/
+@media screen and (max-width: 1366px) {
+  body p {
+    font-size: 18px;
+  }
+  
+}
+@media screen and (max-width: 1024px) {
+  body p {
+    font-size: 15px;
+  }
+  
+}
+@media screen and (max-width: 768px) {
+  body p {
+    font-size: 10px;
+  }
+  
+}
+@media screen and (max-width: 480px) {
+  body p {
+    font-size: 8px;
+  }
+  
+}
+
+/* navbar styles*/
+#brand {
+  font-weight: bold;
+  margin-left: 6rem;
+}
+/*nav links */
+#links {
+  font-weight: 800;
+  font-size: small;
+  color: rgb(35, 37, 35);
+  margin-right: 10px;
+}
+.navLink:hover {
+  border-bottom: 2px solid black;
+}
+#p1 {
+  /* bottom nav brand paragraph */
+  font-size: xx-small;
+  font-weight: 500;
+}
+/* all page headers */
+h2{
+  font-family: cursive;
+}
+/*sectional page information*/
+.about {
+  width: 80%;
+  border: 1px solid;
+  border-radius: 5%;
+  margin: 3rem auto;
+  padding: 10px;
+  box-shadow: 5px 6px 4px 7px #bbbaba;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#vision{
+  width: 80%;
+  border: 1px solid;
+  border-radius: 10%;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 10px;
+  box-shadow: 5px 6px 4px 7px #848477;
+}
+#phil{ /*philosophy section */
+  width: 80%;
+  border: 1px solid;
+  border-radius: 5%;
+  margin-top: 3rem;
+  padding: 10px;
+  box-shadow: 5px 6px 4px 7px #d9d9d2;
+}
+/*team section*/
+#teamimg{
+  width: auto;
+  border-radius: 50%;
+}
+#team{
+  margin: 45px auto;
+}
+
+ .d{  /* carousel images */
+  width: 100%;
+  height: 400px;
+ 
+ }
+ /* services page*/
+#service{
+  width: 80%;
+  height: auto;
+  margin: 35px auto;
+  border: 1px;
+  border-radius: 10% ;
+}
+/*carousel images*/
+.blur{
+  border-radius: 5%;
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
+  width: 100%;
+  height: 400px;
+}
+/*certification page*/
+#cert{
+  color: rgb(247, 250, 251);
+  text-align: center;
+  margin-top: 2rem;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 50px;
+}
+#p3{
+  font-weight: 400;
+  font-style: oblique;
+  width: 600px;
+  margin: auto;
+}
+/*h6 on the cert page*/
+.lasth6{
+  font-weight: 700;
+  font-size: larger;
+}
+/* number blocks on the cert page*/
+.span6{
+  width: 10px;
+  height: 10px;
+  color: #f9f9f7;
+  font-weight: bolder;
+  font-size: 50px;
+}
+
+/*contact page*/
+.contact{
+  background-image: url("https://thumbs.dreamstime.com/b/contact-us-customer-support-concept-wooden-cubes-mail-phone-email-icons-table-yellow-background-u-sand-215115595.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+/* footer*/
+#foot{
+  width: 70%;
+  font-weight: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
+  position: absolute;
+  bottom: 0px;
+}
+.footer {
+  background-color: rgb(134, 136, 134);
+  border-top:2px solid rgba(38, 145, 226, 0.282);
+  width: 100%;
+  bottom: 0;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+ }
